@@ -4,20 +4,209 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7f7e14a-b5fa-4981-b12c-fc0df3cac4d3" name="Changes" comment="" />
+    <list default="true" id="a7f7e14a-b5fa-4981-b12c-fc0df3cac4d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala3_library_3_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Scala-sandbox-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Scala-sandbox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/week1basics/StringOperations.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch3/FibonacciRecursive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch3/ReverseStringFromIndex.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch4/BankGift.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch5/RegexPatternMatching.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/ForComptehentionPlayground.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/ImmutableCollectionTask1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/KOrderSortAndGetByIndex.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/ReadImmutableCollectionAndFilter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/SplitListOfIntToOddEven.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/StringProcessing.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week1basics/Expressions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week1basics/LinkPrint.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week1basics/PowerOfTwo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week1basics/StringQuestion.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-sandbox" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-sandbox" type="f1a62948:ProjectNode" />
+                <item name="scala-sandbox" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-sandbox" type="f1a62948:ProjectNode" />
+                <item name="scala-sandbox" type="2d1252cf:ModuleNode" />
+                <item name="sbt tasks" type="d9357504:SbtViewContributor$SbtTasksGroupNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-sandbox" type="f1a62948:ProjectNode" />
+                <item name="scala-sandbox" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2OMktNiuoHdYNpMfFvIdbzcVVZK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;sbt.project.settings.configurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;,
+      &quot;Scala&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/lectures/" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ForComptehentionPlayground">
+    <configuration name="Ch6_1_Collection_SplitIntList" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.Ch6_1_Collection_SplitIntList" />
+      <module name="Scala-sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.tinkoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.ch3.Fibonacci" />
+      <module name="Scala-sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.tinkoff.ch3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForComptehentionPlayground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.ch6.ForComptehentionPlayground" />
+      <module name="Scala-sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.tinkoff.ch6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImmutableCollectionTask1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.ch6.ImmutableCollectionTask1" />
+      <module name="Scala-sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.tinkoff.ch6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProcessing" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.ch6.StringProcessing" />
+      <module name="Scala-sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.tinkoff.ch6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ForComptehentionPlayground" />
+        <item itemvalue="Application.ImmutableCollectionTask1" />
+        <item itemvalue="Application.StringProcessing" />
+        <item itemvalue="Application.Ch6_1_Collection_SplitIntList" />
+        <item itemvalue="Application.Fibonacci" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="scala3DisclaimerShown" value="true" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,5 +217,20 @@
       <updated>1681378052901</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

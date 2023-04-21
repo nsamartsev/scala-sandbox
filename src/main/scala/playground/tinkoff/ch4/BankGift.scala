@@ -1,14 +1,10 @@
-package tinkoff.ch4
+package playground.tinkoff.ch4
 
 import scala.io.StdIn
 
-object BankGift {
-  def main(args: Array[String]) = {
-    val accountAmounts = List(100, 200, 500, 300, 700)
-
-    val newAmounts = accountAmounts.map(amount => sendGift(amount, getGift()))
-    println(newAmounts)
-  }
+object BankGift extends App {
+  var accountAmounts = List(100, 200, 500, 300, 700)
+  var newAmounts = accountAmounts.map(amount => sendGift(amount, getGift()))
 
   def sendGift(currentAmount: Int, gift: => Int) = {
     if (currentAmount >= 500)

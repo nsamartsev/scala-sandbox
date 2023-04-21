@@ -1,4 +1,4 @@
-package lectures.week1basics
+package playground.week1basics
 
 import scala.annotation.tailrec
 

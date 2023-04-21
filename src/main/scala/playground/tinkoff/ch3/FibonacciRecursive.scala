@@ -1,6 +1,6 @@
 package playground.tinkoff.ch3
 
-object Fibonacci extends App {
+object FibonacciRecursive extends App {
   private def fibs(num: Int): Int = {
     if (num == 1)
       1

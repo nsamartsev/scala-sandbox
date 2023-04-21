@@ -1,7 +1,7 @@
 package playground.tinkoff.ch5
 
-object PatternMatching extends App {
-  val input1: List[String] = List(
+object RegexPatternMatching extends App {
+  private val inputOne: List[String] = List(
     "oleg",
     "oleg@email.com",
     "7bdaf0a1be3",
@@ -9,24 +9,25 @@ object PatternMatching extends App {
     "28d74b7a3fe"
   )
 
-  val input2: List[String] = List(
+  private val inputTwo: List[String] = List(
     "oleg oleg@email.com",
     "7bdaf0a1be3",
     "a8af118b1a2",
     "28d74b7a3fe"
   )
 
-  val login = "([a-zA-Z]+)".r
-  val email = "(\\w+@\\w+\\.\\w+)".r
-  val login_with_email = "([a-zA-Z]+)\\s(\\w+@\\w+.\\w+)".r
+  private val loginRegex = "([a-zA-Z]+)".r
+  private val emailRegex = "(\\w+@\\w+\\.\\w+)".r
+  private val loginAndEmailRegex = "([a-zA-Z]+)\\s(\\w+@\\w+.\\w+)".r
 
-  def extractNameAndEmail(input: List[String]): String =
+  private def extractNameAndEmail(input: List[String]): String =
     input match {
-      case login(first) :: email(second) :: rest => s"$first ${second.replaceAll("\\w+@", "")}"
-      case login_with_email(l, e) :: rest => s"$l ${e.replaceAll("\\w+@", "")}"
+      case loginRegex(l) :: emailRegex(e) :: rest => s"$l ${e.replaceAll("\\w+@", "")}"
+      case loginAndEmailRegex(l, e) :: rest => s"$l ${e.replaceAll("\\w+@", "")}"
       case _ => s"invalid"
     }
 
-  assert(extractNameAndEmail(input1) == "oleg email.com")
-  assert(extractNameAndEmail(input2) == "oleg email.com")
+  assert(extractNameAndEmail(inputOne) == "oleg email.com")
+  assert(extractNameAndEmail(inputTwo) == "oleg email.com")
+  println("Tests OK.")
 }
