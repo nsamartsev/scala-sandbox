@@ -1,8 +1,8 @@
-package playground.week1basics
+package exercises.week1basics
 
 import scala.annotation.tailrec
 
-object PowerOfTwo extends App {
+object PowerOfTwoRecursive extends App {
   private def powerOfTwo(n: Int): BigInt = {
     @tailrec
     def loop(result: BigInt, acc: BigInt): BigInt = {
@@ -11,6 +11,4 @@ object PowerOfTwo extends App {
     }
     loop(0, 1)
   }
-
-  assert(powerOfTwo(2) == 4)
 }

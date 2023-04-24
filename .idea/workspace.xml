@@ -5,38 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7f7e14a-b5fa-4981-b12c-fc0df3cac4d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala3_library_3_3_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_10_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Scala-sandbox-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Scala-sandbox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/week1basics/StringOperations.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch3/FibonacciRecursive.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch3/ReverseStringFromIndex.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch4/BankGift.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch5/RegexPatternMatching.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/ForComptehentionPlayground.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/ImmutableCollectionTask1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/KOrderSortAndGetByIndex.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/ReadImmutableCollectionAndFilter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/SplitListOfIntToOddEven.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/tinkoff/ch6/StringProcessing.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week1basics/Expressions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week1basics/LinkPrint.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week1basics/PowerOfTwo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week1basics/StringQuestion.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week1basics/AddXRecursive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week1basics/ReversePhrase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week2oop/CommonRoundedTestButtons.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/week3fp/FunctionsFP.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/week2oop/ModelsCourseAndInstructor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/playground/week1basics/Expressions.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/playground/week1basics/LinkPrint.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/playground/week1basics/PowerOfTwo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/exercises/week1basics/PowerOfTwoRecursive.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/playground/week1basics/StringQuestion.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,34 +86,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;6&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;sbt.project.settings.configurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "scala_project_settings_configurable.last_selected_tab_index": "6",
+    "settings.editor.selected.configurable": "sbt.project.settings.configurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;,
-      &quot;Scala&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA",
+      "Scala"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="exercises.week1basics" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ForComptehentionPlayground">
-    <configuration name="Ch6_1_Collection_SplitIntList" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.Ch6_1_Collection_SplitIntList" />
+  <component name="RunManager" selected="Application.ReversePhrase">
+    <configuration name="Buttons" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.week2oop.Buttons" />
       <module name="Scala-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.tinkoff.*" />
+          <option name="PATTERN" value="exercises.week2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.ch3.Fibonacci" />
+    <configuration name="FunctionsFP" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.week3fp.FunctionsFP" />
       <module name="Scala-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.tinkoff.ch3.*" />
+          <option name="PATTERN" value="lectures.week3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForComptehentionPlayground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.ch6.ForComptehentionPlayground" />
+    <configuration name="ModelsCourseAndInstructor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.week2oop.ModelsCourseAndInstructor" />
       <module name="Scala-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.tinkoff.ch6.*" />
+          <option name="PATTERN" value="playground.week2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableCollectionTask1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.ch6.ImmutableCollectionTask1" />
+    <configuration name="ReversePhrase" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.week1basics.ReversePhrase" />
       <module name="Scala-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.tinkoff.ch6.*" />
+          <option name="PATTERN" value="exercises.week1basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProcessing" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.tinkoff.ch6.StringProcessing" />
+    <configuration name="exercises.week1basics.AddXRecursive" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.week1basics.AddXRecursive" />
       <module name="Scala-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.tinkoff.ch6.*" />
+          <option name="PATTERN" value="exercises.week1basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForComptehentionPlayground" />
-        <item itemvalue="Application.ImmutableCollectionTask1" />
-        <item itemvalue="Application.StringProcessing" />
-        <item itemvalue="Application.Ch6_1_Collection_SplitIntList" />
-        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.ReversePhrase" />
+        <item itemvalue="Application.FunctionsFP" />
+        <item itemvalue="Application.exercises.week1basics.AddXRecursive" />
+        <item itemvalue="Application.Buttons" />
+        <item itemvalue="Application.ModelsCourseAndInstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +213,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/playground/week2oop/ModelsCourseAndInstructor.scala</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
