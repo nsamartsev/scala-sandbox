@@ -11,4 +11,7 @@ object PowerOfTwoRecursive extends App {
     }
     loop(0, 1)
   }
+  assert(powerOfTwo(1) == 2)
+  assert(powerOfTwo(2) == 4)
+  assert(powerOfTwo(3) == 8)
 }

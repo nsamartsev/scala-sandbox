@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scala-sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/Scala-sandbox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scala-sandbox-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Scala-sandbox-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-sandbox-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-sandbox-build.iml" />
     </modules>
   </component>
 </project>
