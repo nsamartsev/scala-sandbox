@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7f7e14a-b5fa-4981-b12c-fc0df3cac4d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week2oop/AbstractAndAnonymEventAndListenerInheritance.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week2oop/Accounts.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week2oop/GenericsTask.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week2oop/UnaryOperator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Scala-sandbox-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Scala-sandbox-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Scala-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Scala-sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week2oop/LinkedList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week2oop/LinkedListGenerics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week2oop/LogSystem.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week3fp/GuardPatternMatching.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week3fp/PartialFunctionChatBot.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week3fp/ProgrammingLanguageFilter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week3fp/RegexPattern.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week3fp/ServerConnector.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/week3fp/UserDataPattern.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/exercises/week1basics/PowerOfTwoRecursive.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/exercises/week1basics/PowerOfTwoRecursive.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,25 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nick/Developer/scala/scala-sandbox&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;6&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/nick/Developer/scala/scala-sandbox",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "scala_project_settings_configurable.last_selected_tab_index": "6",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;,
-      &quot;Scala&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA",
+      "Scala"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/" />
@@ -97,10 +97,26 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="exercises.week1basics" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exercises.week2oop" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Sugar">
-    <configuration name="Accounts" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.week2oop.Accounts" />
+  <component name="RunManager" selected="Application.PartialFunctionChatBot">
+    <configuration name="Connection" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.week3fp.Connection" />
+      <module name="scala-sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.week3fp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListGenerics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.week2oop.LinkedListGenerics" />
       <module name="scala-sandbox" />
       <extension name="coverage">
         <pattern>
@@ -112,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventAndListenerInheritance" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.week2oop.EventAndListenerInheritance" />
+    <configuration name="PartialFunctionChatBot" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.week3fp.PartialFunctionChatBot" />
       <module name="scala-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.week2oop.*" />
+          <option name="PATTERN" value="exercises.week3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsTask" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.week2oop.GenericsTask" />
+    <configuration name="ServerConnector" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.week3fp.ServerConnector" />
       <module name="scala-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.week2oop.*" />
+          <option name="PATTERN" value="exercises.week3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,25 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfTwoRecursive" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.week1basics.PowerOfTwoRecursive" />
+    <configuration name="exercises.week3fp.ProgrammingLanguageFilter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.week3fp.ProgrammingLanguageFilter" />
       <module name="scala-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.week1basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sugar" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.week2oop.Sugar" />
-      <module name="scala-sandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.week2oop.*" />
+          <option name="PATTERN" value="exercises.week3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sugar" />
-        <item itemvalue="Application.Accounts" />
-        <item itemvalue="Application.EventAndListenerInheritance" />
-        <item itemvalue="Application.GenericsTask" />
-        <item itemvalue="Application.PowerOfTwoRecursive" />
+        <item itemvalue="Application.PartialFunctionChatBot" />
+        <item itemvalue="Application.ServerConnector" />
+        <item itemvalue="Application.LinkedListGenerics" />
+        <item itemvalue="Application.exercises.week3fp.ProgrammingLanguageFilter" />
+        <item itemvalue="Application.Connection" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +189,14 @@
       <option name="presentableId" value="Default" />
       <updated>1681378052901</updated>
     </task>
+    <task id="LOCAL-00001" summary="Solved OOP tasks.">
+      <created>1682512950219</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682512950219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +209,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solved OOP tasks." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved OOP tasks." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
